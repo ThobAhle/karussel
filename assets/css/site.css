@@ -5,3 +5,36 @@ font-family: "Oswald", sans-serif; */
   margin: 0px;
   padding: 0px;
 }
+.header-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.header-main h1{
+  font-size: 4rem;
+  font-family: sans-serif;
+}
+.header-main p{
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+#galleryImage{
+  max-width: 100%;
+  max-width: 75%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.section-one{
+  display: flex;
+  justify-content: center;
+}
+button{
+background-color: transparent; 
+border: none;
+}
+i{
+  font-size: 3rem;
+  padding: 1rem;
+  cursor: pointer;
+}
